@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 
+
 gulp.task('hello', function(done) {
   console.log('привет мир');
   done();
@@ -15,3 +16,6 @@ gulp.task('browser-sync', function () {
   });
   gulp.watch("./*.html").on('change', browserSync.reload);
 });
+//mincss
+
+
