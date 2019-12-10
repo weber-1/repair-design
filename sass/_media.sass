@@ -1,10 +1,20 @@
 @media screen and ( max-width:1200px  )
-  html
-    font-size: 12px
+  .html
+    font-size: 16px
   .nav
     &__item
       margin-right: 1rem
+  .contacts
+    &__button
+      display: none
+  
+    
 @media screen and ( max-width:992px  )
+  .contacts
+    &__button
+      display: none
+    &__phone
+      margin-right: 0
   .nav
     display: none
   .hero
@@ -12,7 +22,23 @@
       display: none
     &__content
       margin-left: 0
-@media screen and ( max-width:570px  )
+@media screen and ( max-width: 768px )
+  .contacts
+    &__phone
+      margin-right: 0
+    &__button
+      display: none
+  .hero
+    &__content
+      max-width: 29rem
+    &__scroll-down
+      display: none
+    &__button
+      margin-bottom: 14px
+  .title
+    font-size: 36px
+  
+@media screen and ( max-width:576px  )
   .contacts
     &__phone
       margin-right: 0
