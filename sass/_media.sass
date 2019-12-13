@@ -7,6 +7,17 @@
   .contacts
     &__button
       display: none
+@media screen and ( max-width: 1000px )
+  .row
+    flex-direction: column
+    align-items: center
+  .types
+    &__card
+      margin-bottom: 5rem
+  .card
+    &__text
+      margin-left: 0
+  
   
     
 @media screen and ( max-width:992px  )
@@ -22,6 +33,13 @@
       display: none
     &__content
       margin-left: 0
+  .design
+    background-color: $dark
+    &__section-title
+      color: $light
+      margin-bottom: 2.78rem
+    &__card
+      margin-bottom: 5.7rem
 @media screen and ( max-width: 768px )
   .contacts
     &__phone
@@ -39,6 +57,10 @@
     font-size: 36px
   
 @media screen and ( max-width:576px  )
+  .section
+    &-title
+      &__description
+        max-width: 21.86rem
   .contacts
     &__phone
       margin-right: 0
